@@ -1,12 +1,48 @@
 (function ($) {
     "use strict";
-   // const button33 = document.querySelector('.project33');
+   
+    const button33 = document.querySelector('.project33');
 
     // Add a click event listener to the button
-   // button33.addEventListener('click', function() {
+   button33.addEventListener('click', function() {
     // Redirect to the desired link
-   // window.location.href = 'https://www.youtube.com/watch?v=EIqOuT9PCCY';
-   // });
+   window.location.href = 'https://www.youtube.com/watch?v=EIqOuT9PCCY';
+   });
+   const button34 = document.querySelector('.project34');
+
+   // Add a click event listener to the button
+  button34.addEventListener('click', function() {
+   // Redirect to the desired link
+  window.location.href = 'https://www.youtube.com/watch?v=3cKoqaWwbzI&list=PL066ds4r-BKhe6vOK-JAeofNsrHKpbh2T';
+  });
+  const button35 = document.querySelector('.project35');
+
+  // Add a click event listener to the button
+ button35.addEventListener('click', function() {
+  // Redirect to the desired link
+ window.location.href = 'https://ieeextreme.org/';
+ });
+ const button36 = document.querySelector('.project36');
+
+ // Add a click event listener to the button
+button36.addEventListener('click', function() {
+ // Redirect to the desired link
+window.location.href = 'https://morocco.arabiotai.org/';
+});
+const button37 = document.querySelector('.project37');
+
+// Add a click event listener to the button
+button37.addEventListener('click', function() {
+// Redirect to the desired link
+window.location.href = 'https://www.youtube.com/watch?v=jnGpXwq4LFw&t=3s';
+});
+const button38 = document.querySelector('.project38');
+
+// Add a click event listener to the button
+button38.addEventListener('click', function() {
+// Redirect to the desired link
+window.location.href = 'https://www.youtube.com/watch?v=R5p6U9oUAC0';
+});
 
     /*===============================
     =         Wow Active            =
