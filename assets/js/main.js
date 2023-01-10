@@ -1,12 +1,12 @@
 (function ($) {
     "use strict";
-    const button33 = document.querySelector('.project33');
+   // const button33 = document.querySelector('.project33');
 
     // Add a click event listener to the button
-    button33.addEventListener('click', function() {
+   // button33.addEventListener('click', function() {
     // Redirect to the desired link
-    window.location.href = 'https://www.youtube.com/watch?v=EIqOuT9PCCY';
-    });
+   // window.location.href = 'https://www.youtube.com/watch?v=EIqOuT9PCCY';
+   // });
 
     /*===============================
     =         Wow Active            =
