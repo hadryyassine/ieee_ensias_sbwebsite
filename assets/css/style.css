@@ -5635,7 +5635,7 @@ input[type="checkbox"] {
   font-size: 64px;
   font-weight: 600;
   line-height: 1.41;
-  color: #d2a98e;
+  color: #66a8d2;
 }
 
 .fun-fact--one .fun-fact__text {
@@ -5643,7 +5643,7 @@ input[type="checkbox"] {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #d2a98e;
+  color: #333333;
 }
 
 .fun-fact--two {
@@ -13523,6 +13523,7 @@ blockquote {
   line-height: 1.45;
   border-bottom: 1px solid #ddd;
 }
+
 
 .about-button {
   text-align: right;
