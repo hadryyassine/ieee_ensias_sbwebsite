@@ -3927,7 +3927,7 @@ input[type="checkbox"] {
   height: 100%;
   float: right;
   cursor: default;
-  background: #66a8d2;
+  background-image:url(../images/ieee-landing-main-slider-bg-phone.jpg);
   ;
   -webkit-transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
   -o-transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -14149,6 +14149,11 @@ blockquote {
 
 }
 
+@media only screen and (max-width: 767px) {
+  .preview-hero-bg {
+    background-image: url(../images/ieee-landing-main-slider-bg-phone.jpg);
+}
+}
 
 .pr-img-01 {
   position: absolute;
