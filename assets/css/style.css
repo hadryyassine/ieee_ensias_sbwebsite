@@ -348,8 +348,7 @@ select {
   border-radius: 5px;
   background: #f8f8f8 url("../images/icons/selector-icon.png") no-repeat center right 20px;
   background-color: #f8f8f8;
-  -moz-appearance: none;
-  -webkit-appearance: none;
+
 }
 
 select:focus {
@@ -485,11 +484,7 @@ select:focus {
   background-color: #66a8d2;
 }
 
-form {
-  /* FF 4-18 */
-  /* FF 19+ */
-  /* IE 10+ */
-}
+
 
 form input:focus::-webkit-input-placeholder {
   color: transparent;
@@ -4018,9 +4013,7 @@ input[type="checkbox"] {
   padding: 20px 40px 100px;
 }
 
-.mobile-menu-overlay__body .offcanvas-navigation, .page-oppen-off-sidebar__body .offcanvas-navigation {
-  /* onepage style */
-}
+
 
 .mobile-menu-overlay__body .offcanvas-navigation > ul > li, .page-oppen-off-sidebar__body .offcanvas-navigation > ul > li {
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
@@ -7340,7 +7333,7 @@ ol {
   min-width: 45px;
   color: #ababab;
   display: inline-block;
-  float: left;
+ 
 }
 
 .ht-list.style-auto-numbered-02 .title-wrap {
@@ -9417,7 +9410,7 @@ ol {
 .tab-slider-nav--list .ht-slider-tab-icon {
   background: rgba(255, 255, 255, 0.2);
   display: inline-block;
-  float: left;
+
   width: 70px;
   height: 70px;
   line-height: 70px;
@@ -13372,7 +13365,7 @@ blockquote {
 =      40. About Us pages Css           =
 =======================================*/
 .about-us-bg {
-  background-image: url(../images/contact-us-01-hero-bg-2-3.jpg);
+  background-image: url(../images/bg/contact-us-01-hero-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
