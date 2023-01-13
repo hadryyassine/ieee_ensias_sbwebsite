@@ -184,7 +184,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-6 col-lg-6">
                             <div class="conact-us-wrap-one mb-30">
-                                <h3 class="heading">Connect to us <br>to contribute in  <br><span
+                                <h3 class="heading">Connect to us <br>to contribute in <br><span
                                         class="text-color-primary">Empowering</span> future technology leaders </h3>
                             </div>
                         </div>
@@ -192,27 +192,30 @@
                         <div class="col-lg-6 col-lg-6">
                             <div class="contact-form-wrap">
 
-                                <form id="contact-form"
-                                    action="http://whizthemes.com/mail-php/jowel/mitech/php/mail.php" method="post">
-                                    <!-- <form id="contact-form" action="assets/php/mail.php" method="post"> -->
+
+                                <form id="contact-form" action="https://submit-form.com/csuw4BAt" method="post">
                                     <div class="contact-form">
                                         <div class="contact-input">
                                             <div class="contact-inner">
-                                                <input name="con_name" type="text" placeholder="Name *">
+                                                <input name="con_name" type="text" name="name" placeholder="Name *"
+                                                    class="namec">
                                             </div>
                                             <div class="contact-inner">
-                                                <input name="con_email" type="email" placeholder="Email *">
+                                                <input name="con_email" name="email" type="email" placeholder="Email *"
+                                                    class="emailc">
                                             </div>
                                         </div>
                                         <div class="contact-inner">
-                                            <input name="con_subject" type="text" placeholder="Subject *">
+                                            <input name="con_subject" name="subject" type="text" placeholder="Subject *"
+                                                class="subjectc">
                                         </div>
                                         <div class="contact-inner contact-message">
-                                            <textarea name="con_message"
-                                                placeholder="Please describe what you need."></textarea>
+                                            <textarea name="con_message" placeholder="Please describe what you need."
+                                                name="text" class="textc"></textarea>
                                         </div>
                                         <div class="submit-btn mt-20">
-                                            <button class="ht-btn ht-btn-md" type="submit">Send message</button>
+                                            <button class="ht-btn ht-btn-md" type="submit" onclick="submitForm();">Send
+                                                message</button>
                                             <p class="form-messege"></p>
                                         </div>
                                     </div>
@@ -270,7 +273,7 @@
     <!--========== Call to Action Area End ============-->
     <!--=========== fun fact Wrapper Start ==========-->
 
-   
+
 
 
     <!-- Start Toolbar -->
@@ -434,6 +437,13 @@
 
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
+    <script>
+    document.getElementById("contact-form").addEventListener("submit", function(e) {
+        e.preventDefault();
+        this.reset();
+        document.getElementsByClassName("form-messege")[0].innerHTML = "Thank you!";
+    });
+    </script>
 
 
 </body>
